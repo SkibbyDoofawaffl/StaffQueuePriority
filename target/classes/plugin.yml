@@ -1,0 +1,16 @@
+name: StaffQueuePriority
+version: 1.2
+main: com.skibby.staffqueue.StaffQueuePriority
+api-version: 1.21
+author: Skibby
+description: Gives SrMod+ ranks queue priority and allows config reloads.
+depend: [LuckPerms, AJQueue]
+commands:
+  queuepriority:
+    description: Reload the StaffQueuePriority config
+    usage: /queuepriority reload
+    permission: queuepriority.reload
+permissions:
+  queuepriority.reload:
+    description: Allows reloading of the StaffQueuePriority config
+    default: op

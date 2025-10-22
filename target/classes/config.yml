@@ -1,0 +1,8 @@
+priority-groups:
+  - srmod
+  - admin
+  - dev
+  - owner
+
+# Higher number = higher queue priority in AJQueue
+queue-value: 100
